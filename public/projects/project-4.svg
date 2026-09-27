@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040914"/>
+      <stop offset="100%" stop-color="#0E1B38"/>
+    </linearGradient>
+    <linearGradient id="aiGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg4)"/>
+  
+  <rect x="60" y="50" width="680" height="400" rx="16" fill="#0A1326" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect x="60" y="50" width="680" height="45" rx="16" fill="#0D1A33"/>
+  <circle cx="90" cy="72" r="5" fill="#EF4444" opacity="0.8"/>
+  <circle cx="106" cy="72" r="5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="122" cy="72" r="5" fill="#10B981" opacity="0.8"/>
+  <rect x="150" y="62" width="260" height="20" rx="6" fill="#1B2A4A"/>
+  <text x="165" y="76" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">aveniq.tech/showcase/ai-intelligence</text>
+
+  <!-- AI Chat dialogue UI -->
+  <rect x="100" y="120" width="340" height="60" rx="12" fill="#14213D"/>
+  <text x="120" y="145" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">"Summarize incoming customer data and generate report."</text>
+  <text x="120" y="165" fill="#64748B" font-family="system-ui, sans-serif" font-size="10">User Query • Prompt sent</text>
+
+  <rect x="260" y="200" width="440" height="110" rx="12" fill="#101F3C" stroke="#38BDF8" stroke-opacity="0.3"/>
+  <rect x="280" y="220" width="28" height="28" rx="8" fill="url(#aiGlow)"/>
+  <text x="320" y="235" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">AVENIQ AI Assistant</text>
+  <text x="320" y="255" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="11">Automated analysis generated. 99.4% accuracy across 1,420 entries.</text>
+  <text x="320" y="275" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Exporting data pipeline directly to Supabase storage.</text>
+  <rect x="320" y="290" width="120" height="16" rx="4" fill="#2563EB" fill-opacity="0.4"/>
+
+  <!-- Neural nodes visual -->
+  <circle cx="580" cy="150" r="16" fill="#2563EB" opacity="0.7"/>
+  <circle cx="660" cy="130" r="12" fill="#38BDF8" opacity="0.7"/>
+  <circle cx="680" cy="180" r="14" fill="#06B6D4" opacity="0.7"/>
+  <line x1="580" y1="150" x2="660" y2="130" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="4"/>
+  <line x1="660" y1="130" x2="680" y2="180" stroke="#06B6D4" stroke-width="1.5" stroke-dasharray="4"/>
+
+  <!-- Input Bar -->
+  <rect x="100" y="345" width="600" height="50" rx="12" fill="#14213D" stroke="#2563EB" stroke-width="1"/>
+  <text x="130" y="375" fill="#64748B" font-family="system-ui, sans-serif" font-size="12">Ask anything or trigger custom function pipeline...</text>
+  <rect x="630" y="355" width="55" height="30" rx="8" fill="#2563EB"/>
+  <text x="657" y="374" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Run</text>
+
+  <text x="400" y="480" fill="#64748B" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">AVENIQ SELECTED WORK • PREVIEW PLACEHOLDER</text>
+</svg>

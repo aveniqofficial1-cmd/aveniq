@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050B14"/>
+      <stop offset="60%" stop-color="#0A192F"/>
+      <stop offset="100%" stop-color="#112240"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  
+  <!-- Browser Window -->
+  <rect x="60" y="50" width="680" height="400" rx="16" fill="#0B1528" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect x="60" y="50" width="680" height="45" rx="16" fill="#0D1D36"/>
+  <circle cx="90" cy="72" r="5" fill="#EF4444" opacity="0.8"/>
+  <circle cx="106" cy="72" r="5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="122" cy="72" r="5" fill="#10B981" opacity="0.8"/>
+  <rect x="150" y="62" width="300" height="20" rx="6" fill="#1B2E4B"/>
+  <text x="165" y="76" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">aveniq.tech/showcase/ecommerce-platform</text>
+
+  <!-- E-commerce Grid -->
+  <!-- Product Card 1 -->
+  <rect x="90" y="120" width="180" height="220" rx="10" fill="#13233D" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="105" y="135" width="150" height="100" rx="8" fill="url(#cyanGrad)" fill-opacity="0.2"/>
+  <rect x="105" y="250" width="120" height="12" rx="3" fill="#94A3B8"/>
+  <rect x="105" y="270" width="60" height="10" rx="3" fill="#38BDF8"/>
+  <rect x="105" y="295" width="150" height="28" rx="6" fill="#2563EB"/>
+
+  <!-- Product Card 2 -->
+  <rect x="290" y="120" width="180" height="220" rx="10" fill="#13233D" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="305" y="135" width="150" height="100" rx="8" fill="url(#cyanGrad)" fill-opacity="0.3"/>
+  <rect x="305" y="250" width="110" height="12" rx="3" fill="#94A3B8"/>
+  <rect x="305" y="270" width="70" height="10" rx="3" fill="#38BDF8"/>
+  <rect x="305" y="295" width="150" height="28" rx="6" fill="#06B6D4"/>
+
+  <!-- Product Card 3 -->
+  <rect x="490" y="120" width="220" height="220" rx="10" fill="#13233D" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="510" y="135" width="180" height="20" rx="4" fill="#38BDF8" fill-opacity="0.4"/>
+  <rect x="510" y="165" width="160" height="8" rx="3" fill="#64748B"/>
+  <rect x="510" y="180" width="170" height="8" rx="3" fill="#475569"/>
+  <rect x="510" y="205" width="180" height="40" rx="6" fill="#0E1E38" stroke="#2563EB" stroke-width="1"/>
+  <rect x="510" y="260" width="180" height="35" rx="6" fill="#2563EB"/>
+
+  <!-- Shopping Cart floating pill -->
+  <rect x="550" y="370" width="160" height="40" rx="20" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+  <text x="630" y="395" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" font-weight="bold">Checkout • Encrypted</text>
+  
+  <text x="400" y="480" fill="#64748B" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">AVENIQ SELECTED WORK • PREVIEW PLACEHOLDER</text>
+</svg>

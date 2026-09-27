@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgWarm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#F4EFEB"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#2A1B14" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  
+  <!-- Warm Artisan Canvas -->
+  <rect width="800" height="500" fill="url(#bgWarm)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g stroke="#EFE7DC" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="500" y1="0" x2="500" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="700" y1="0" x2="700" y2="500"/>
+  </g>
+
+  <!-- Browser Window Frame -->
+  <g filter="url(#cardShadow)">
+    <rect x="50" y="35" width="700" height="430" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    
+    <!-- Top Browser Header Bar -->
+    <rect x="50" y="35" width="700" height="42" rx="14" fill="#F8FAFC"/>
+    <path d="M50 77 h700" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Window Control Dots -->
+    <circle cx="75" cy="56" r="4.5" fill="#EF4444"/>
+    <circle cx="90" cy="56" r="4.5" fill="#F59E0B"/>
+    <circle cx="105" cy="56" r="4.5" fill="#10B981"/>
+    
+    <!-- URL Bar -->
+    <rect x="180" y="44" width="440" height="24" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="198" cy="56" r="4" fill="#10B981"/>
+    <text x="210" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#334155">https://aveniq-bakery.vercel.app</text>
+    <text x="560" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#047857">LIVE PRODUCTION</text>
+  </g>
+
+  <!-- Website Navigation Inside Browser -->
+  <g transform="translate(50, 78)">
+    <rect x="0" y="0" width="700" height="50" fill="#FAF6F0"/>
+    <line x1="0" y1="50" x2="700" y2="50" stroke="#EFE7DC" stroke-width="1"/>
+    
+    <!-- Brand Logo Icon & Text -->
+    <circle cx="35" cy="25" r="14" fill="#2A1B14"/>
+    <text x="35" y="30" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#C88A36" text-anchor="middle">A</text>
+    <text x="60" y="26" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#2A1B14">AVENIQ</text>
+    <text x="60" y="37" font-family="-apple-system, sans-serif" font-size="8" font-weight="600" fill="#8C7E74" letter-spacing="1.5">ARTISAN BAKERY</text>
+    
+    <!-- Nav Links -->
+    <text x="250" y="29" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#C88A36">Home</text>
+    <text x="310" y="29" font-family="-apple-system, sans-serif" font-size="11" font-weight="500" fill="#4A2E20">Menu</text>
+    <text x="365" y="29" font-family="-apple-system, sans-serif" font-size="11" font-weight="500" fill="#4A2E20">Offers</text>
+    <text x="420" y="29" font-family="-apple-system, sans-serif" font-size="11" font-weight="500" fill="#4A2E20">Track Order</text>
+    
+    <!-- Cart Pill -->
+    <rect x="580" y="11" width="95" height="28" rx="8" fill="#2A1B14"/>
+    <text x="627" y="29" font-family="-apple-system, sans-serif" font-size="10" font-weight="bold" fill="#FAF6F0" text-anchor="middle">Cart (2) · ₹840</text>
+  </g>
+
+  <!-- Hero Banner Content in Browser -->
+  <g transform="translate(75, 145)">
+    <!-- Left Hero Text -->
+    <rect x="0" y="0" width="165" height="22" rx="11" fill="#FAF6F0" stroke="#E7DFD5" stroke-width="1"/>
+    <text x="12" y="15" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#C88A36">🌾 HANDCRAFTED PATISSERIE</text>
+    
+    <text x="0" y="52" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2A1B14">Freshly Baked.</text>
+    <text x="0" y="78" font-family="Georgia, serif" font-size="24" font-style="italic" fill="#C88A36">Made With Love.</text>
+    
+    <text x="0" y="105" font-family="-apple-system, sans-serif" font-size="10.5" fill="#6B5E52">Artisanal celebration cakes, golden flaky croissants,</text>
+    <text x="0" y="122" font-family="-apple-system, sans-serif" font-size="10.5" fill="#6B5E52">and sourdough loaves baked fresh every morning.</text>
+    
+    <!-- CTA Buttons in Mockup -->
+    <rect x="0" y="145" width="110" height="32" rx="8" fill="#2A1B14"/>
+    <text x="55" y="165" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="600" fill="#FAF6F0" text-anchor="middle">Explore Menu →</text>
+    
+    <rect x="120" y="145" width="95" height="32" rx="8" fill="#C88A36"/>
+    <text x="167" y="165" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Order Online</text>
+
+    <!-- 3 Badges -->
+    <g transform="translate(0, 200)">
+      <rect x="0" y="0" width="90" height="24" rx="6" fill="#F5EBE1"/>
+      <text x="45" y="16" font-family="-apple-system, sans-serif" font-size="9" font-weight="600" fill="#4A2E20" text-anchor="middle">⚡ 45-Min Express</text>
+
+      <rect x="100" y="0" width="85" height="24" rx="6" fill="#F5EBE1"/>
+      <text x="142" y="16" font-family="-apple-system, sans-serif" font-size="9" font-weight="600" fill="#4A2E20" text-anchor="middle">⭐ 4.9 Rating</text>
+
+      <rect x="195" y="0" width="90" height="24" rx="6" fill="#F5EBE1"/>
+      <text x="240" y="16" font-family="-apple-system, sans-serif" font-size="9" font-weight="600" fill="#4A2E20" text-anchor="middle">🥐 Pure Butter</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Cards Display -->
+  <g transform="translate(420, 145)">
+    <!-- Main Card (Belgian Chocolate Truffle Cake) -->
+    <rect x="0" y="0" width="225" height="225" rx="14" fill="#FFFFFF" stroke="#EFE7DC" stroke-width="1.5" filter="url(#cardShadow)"/>
+    
+    <!-- Image placeholder area -->
+    <rect x="10" y="10" width="205" height="130" rx="10" fill="#2A1B14"/>
+    <circle cx="112" cy="70" r="32" fill="#3D261C"/>
+    <circle cx="112" cy="70" r="22" fill="#C88A36" opacity="0.3"/>
+    <text x="112" y="76" font-family="Georgia, serif" font-size="20" fill="#C88A36" text-anchor="middle">🎂</text>
+    
+    <rect x="20" y="20" width="60" height="18" rx="9" fill="#2A1B14" opacity="0.9"/>
+    <text x="50" y="32" font-family="-apple-system, sans-serif" font-size="8" font-weight="bold" fill="#F59E0B" text-anchor="middle">BESTSELLER</text>
+    
+    <!-- Product Details -->
+    <text x="14" y="160" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#2A1B14">Belgian Chocolate Truffle</text>
+    <text x="14" y="176" font-family="-apple-system, sans-serif" font-size="9.5" fill="#8C7E74">Pure 70% Callebaut Ganache</text>
+    
+    <text x="14" y="202" font-family="-apple-system, sans-serif" font-size="14" font-weight="bold" fill="#2A1B14">₹650</text>
+    <text x="55" y="201" font-family="-apple-system, sans-serif" font-size="9" fill="#A89F91" text-decoration="line-through">₹750</text>
+    
+    <rect x="150" y="185" width="65" height="26" rx="6" fill="#C88A36"/>
+    <text x="182" y="201" font-family="-apple-system, sans-serif" font-size="9.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">+ Add</text>
+
+    <!-- Floating Badge -->
+    <g transform="translate(-30, 80)">
+      <rect x="0" y="0" width="105" height="34" rx="10" fill="#FFFFFF" stroke="#EFE7DC" stroke-width="1" filter="url(#cardShadow)"/>
+      <text x="12" y="16" font-family="-apple-system, sans-serif" font-size="9" font-weight="bold" fill="#2A1B14">🥖 Parisian Bakes</text>
+      <text x="12" y="27" font-family="-apple-system, sans-serif" font-size="8" fill="#059669">Baked Fresh 5 AM</text>
+    </g>
+  </g>
+</svg>
