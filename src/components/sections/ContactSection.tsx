@@ -11,7 +11,7 @@ export default function ContactSection() {
     phone: '',
     company: '',
     projectType: 'Websites',
-    budgetRange: '$3,000 – $6,000',
+    budgetRange: '₹25,000 – ₹50,000',
     description: '',
   });
 
@@ -29,11 +29,12 @@ export default function ContactSection() {
   ];
 
   const budgetRanges = [
-    '< $2,000',
-    '$2,000 – $5,000',
-    '$5,000 – $10,000',
-    '$10,000+',
-    'Flexible / Undecided',
+    '< ₹25,000',
+    '₹25,000 – ₹50,000',
+    '₹50,000 – ₹1,00,000',
+    '₹1,00,000 – ₹2,50,000',
+    '₹2,50,000+',
+    'Flexible / Open to Discussion',
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -209,7 +210,7 @@ export default function ContactSection() {
                           phone: '',
                           company: '',
                           projectType: 'Websites',
-                          budgetRange: '$3,000 – $6,000',
+                          budgetRange: '₹25,000 – ₹50,000',
                           description: '',
                         });
                       }}
