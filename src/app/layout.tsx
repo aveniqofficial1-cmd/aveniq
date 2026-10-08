@@ -106,6 +106,7 @@ export default function RootLayout({
       'AVENIQ is a premium software development studio building digital products, websites, e-commerce platforms and applications for ambitious businesses.',
     address: {
       '@type': 'PostalAddress',
+      addressLocality: 'Hyderabad',
       addressCountry: 'IN',
     },
     sameAs: [

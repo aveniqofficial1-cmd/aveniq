@@ -75,7 +75,7 @@ export default function AboutSection() {
               <div className="flex items-center justify-between pb-6 border-b border-[#EFEFEA]">
                 <div>
                   <h3 className="text-lg font-bold text-[#111111]">AVENIQ Studio</h3>
-                  <span className="text-xs font-mono text-[#777777]">Bengaluru & Remote Global</span>
+                  <span className="text-xs font-mono text-[#777777]">Hyderabad & Remote Global</span>
                 </div>
                 <div className="w-12 h-12 rounded-full bg-[#111111] flex items-center justify-center text-white font-bold text-lg font-serif-display">
                   AQ

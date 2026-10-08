@@ -174,7 +174,7 @@ export default function ContactSection() {
                     Studio Location
                   </span>
                   <span className="text-sm font-semibold text-[#111111]">
-                    Bengaluru, India (Remote Global)
+                    Hyderabad, India (Remote Global)
                   </span>
                   <p className="text-xs text-[#888888] mt-0.5">Collaborating across global time zones</p>
                 </div>
