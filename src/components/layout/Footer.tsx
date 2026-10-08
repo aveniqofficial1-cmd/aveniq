@@ -79,10 +79,10 @@ export default function Footer() {
               ))}
               <li className="pt-2">
                 <a
-                  href="mailto:contact@aveniq.tech"
+                  href="mailto:aveniqofficial1@gmail.com"
                   className="text-xs font-mono text-[#555555] hover:text-[#111111] underline underline-offset-4"
                 >
-                  contact@aveniq.tech
+                  aveniqofficial1@gmail.com
                 </a>
               </li>
             </ul>

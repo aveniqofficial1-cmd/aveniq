@@ -38,7 +38,7 @@ export const faqData: FAQItem[] = [
   },
   {
     question: 'How do we start a project?',
-    answer: 'Getting started is straightforward: fill out our project inquiry form below or reach out directly on WhatsApp (+91 7670863913) or email (contact@aveniq.tech). We will review your requirements, arrange a short introductory call if helpful, and provide a clear proposal with timeline and fixed pricing.',
+    answer: 'Getting started is straightforward: fill out our project inquiry form below or reach out directly on WhatsApp (+91 7670863913) or email (aveniqofficial1@gmail.com). We will review your requirements, arrange a short introductory call if helpful, and provide a clear proposal with timeline and fixed pricing.',
     category: 'Next Steps'
   }
 ];

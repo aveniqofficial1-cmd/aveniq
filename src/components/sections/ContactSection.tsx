@@ -105,7 +105,7 @@ export default function ContactSection() {
               
               {/* Email */}
               <a
-                href="mailto:contact@aveniq.tech"
+                href="mailto:aveniqofficial1@gmail.com"
                 className="p-5 rounded-xl bg-[#FFFFFF] border border-[#D9D8D3] hover:border-[#111111] transition-colors flex items-start gap-4 group"
               >
                 <div className="p-2.5 rounded-lg bg-[#FAF9F6] border border-[#E5E4DE] text-[#111111] group-hover:bg-[#111111] group-hover:text-white transition-colors">
@@ -116,7 +116,7 @@ export default function ContactSection() {
                     Email
                   </span>
                   <span className="text-sm font-semibold text-[#111111]">
-                    contact@aveniq.tech
+                    aveniqofficial1@gmail.com
                   </span>
                   <p className="text-xs text-[#888888] mt-0.5">For formal RFP &amp; detailed briefs</p>
                 </div>
