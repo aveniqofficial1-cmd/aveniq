@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <defs>
+    <linearGradient id="bgGraminum" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F7F4"/>
+      <stop offset="100%" stop-color="#ECEAE4"/>
+    </linearGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA820A"/>
+    </linearGradient>
+    <filter id="shadowGraminum" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1E261A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="520" fill="url(#bgGraminum)"/>
+
+  <!-- Subtle Editorial Grid -->
+  <g stroke="#E2DFD6" stroke-width="1" opacity="0.6">
+    <line x1="40" y1="0" x2="40" y2="520"/>
+    <line x1="760" y1="0" x2="760" y2="520"/>
+    <line x1="0" y1="40" x2="800" y2="40"/>
+    <line x1="0" y1="480" x2="800" y2="480"/>
+  </g>
+
+  <!-- Browser Frame -->
+  <g filter="url(#shadowGraminum)">
+    <rect x="44" y="36" width="712" height="448" rx="12" fill="#FFFFFF" stroke="#DCD8D0" stroke-width="1.5"/>
+
+    <!-- Browser Header Bar -->
+    <rect x="44" y="36" width="712" height="38" rx="12" fill="#F8F7F4"/>
+    <line x1="44" y1="74" x2="756" y2="74" stroke="#E6E3DB" stroke-width="1"/>
+    
+    <!-- Window Controls -->
+    <circle cx="68" cy="55" r="4.5" fill="#E26D5C"/>
+    <circle cx="82" cy="55" r="4.5" fill="#EBB44F"/>
+    <circle cx="96" cy="55" r="4.5" fill="#66B386"/>
+
+    <!-- URL Pill -->
+    <rect x="180" y="45" width="440" height="20" rx="6" fill="#FFFFFF" stroke="#E2DFD6" stroke-width="1"/>
+    <text x="400" y="59" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#4A5645" text-anchor="middle" font-weight="600">graminum-organic-foods.onrender.com</text>
+
+    <!-- App / Store Navbar -->
+    <g transform="translate(44, 74)">
+      <rect width="712" height="46" fill="#FFFFFF"/>
+      <line x1="0" y1="46" x2="712" y2="46" stroke="#ECE8E0" stroke-width="1"/>
+      
+      <!-- Store Brand -->
+      <circle cx="38" cy="23" r="10" fill="#243B22"/>
+      <text x="38" y="27" font-family="serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">G</text>
+      <text x="56" y="28" font-family="'Georgia', serif" font-size="15" font-weight="700" fill="#1C2E1A" letter-spacing="1.2">GRAMINUM ORGANIC FOODS</text>
+      
+      <!-- Nav Links -->
+      <text x="320" y="28" font-family="sans-serif" font-size="11" fill="#111111" font-weight="600">Cold-Pressed Oils</text>
+      <text x="430" y="28" font-family="sans-serif" font-size="11" fill="#686C60">Stone-Ground Flours</text>
+      <text x="548" y="28" font-family="sans-serif" font-size="11" fill="#686C60">Farm Heritage</text>
+      
+      <!-- Cart Icon & Pill -->
+      <rect x="636" y="10" width="58" height="26" rx="4" fill="#243B22"/>
+      <text x="665" y="27" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Cart (2)</text>
+    </g>
+
+    <!-- Main Editorial Layout -->
+    <g transform="translate(44, 120)">
+      <!-- Left Column: High-End Farm-to-Table Hero Banner -->
+      <g transform="translate(24, 18)">
+        <rect width="320" height="204" rx="8" fill="#F4F3EE" stroke="#E3E0D6"/>
+        
+        <rect x="24" y="24" width="124" height="18" rx="4" fill="#243B22"/>
+        <text x="86" y="36" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">100% UNREFINED &amp; PURE</text>
+
+        <text x="24" y="72" font-family="'Georgia', serif" font-size="22" font-weight="600" fill="#162414">
+          Wood-Pressed Oils &amp;
+        </text>
+        <text x="24" y="98" font-family="'Georgia', serif" font-size="22" font-style="italic" font-weight="400" fill="#162414">
+          Natural Groceries.
+        </text>
+        <text x="24" y="126" font-family="sans-serif" font-size="10.5" fill="#5F6358" line-height="1.4">
+          Single-origin mustard, sesame, and stone-ground grains delivered straight from regenerative family farms.
+        </text>
+
+        <rect x="24" y="152" width="136" height="32" rx="4" fill="#1E331B"/>
+        <text x="92" y="172" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Shop Farm Fresh →</text>
+      </g>
+
+      <!-- Right Column: Featured Botanical Product Showcase -->
+      <g transform="translate(360, 18)">
+        <rect width="324" height="204" rx="8" fill="#FAF9F6" stroke="#E5E2D8"/>
+        
+        <!-- Product Visual Container -->
+        <rect x="16" y="16" width="130" height="172" rx="6" fill="#EDEAE1"/>
+        <!-- Botanical Oil Bottle Graphic -->
+        <rect x="62" y="40" width="38" height="84" rx="6" fill="#845318"/>
+        <rect x="73" y="28" width="16" height="14" rx="2" fill="#D6C4A3"/>
+        <rect x="67" y="58" width="28" height="46" rx="2" fill="#FAF7EE"/>
+        <text x="81" y="76" font-family="serif" font-size="6" font-weight="700" fill="#2D3B2E" text-anchor="middle">GRAMINUM</text>
+        <text x="81" y="85" font-family="sans-serif" font-size="4.5" font-weight="600" fill="#845318" text-anchor="middle">YELLOW MUSTARD</text>
+
+        <!-- Product Details -->
+        <text x="160" y="38" font-family="sans-serif" font-size="9" font-weight="700" fill="#6A6F62" letter-spacing="0.5">COLD-PRESSED EXTRACTION</text>
+        <text x="160" y="62" font-family="'Georgia', serif" font-size="15" font-weight="700" fill="#141E16">Wood-Pressed Mustard Oil</text>
+        <text x="160" y="78" font-family="sans-serif" font-size="10" fill="#686C60">1000ml • Glass Bottle • Raw Kolhu</text>
+        <text x="160" y="102" font-family="sans-serif" font-size="10" fill="#3D4B38">✓ Chemical &amp; Hexane Free</text>
+        <text x="160" y="120" font-family="sans-serif" font-size="10" fill="#3D4B38">✓ Lab-Tested Purity (100%)</text>
+
+        <text x="160" y="162" font-family="sans-serif" font-size="16" font-weight="700" fill="#162018">₹420</text>
+        <rect x="216" y="144" width="94" height="28" rx="4" fill="#1E331B"/>
+        <text x="263" y="162" font-family="sans-serif" font-size="10" font-weight="600" fill="#FFFFFF" text-anchor="middle">Add to Cart</text>
+      </g>
+
+      <!-- Bottom Editorial Accents -->
+      <g transform="translate(24, 234)">
+        <rect width="660" height="36" rx="4" fill="#F7F6F1" stroke="#EAE6DC"/>
+        <text x="30" y="22" font-family="sans-serif" font-size="10" font-weight="600" fill="#2E3C29">✓ Traditional Wood Kolhu Pressed</text>
+        <text x="250" y="22" font-family="sans-serif" font-size="10" font-weight="600" fill="#2E3C29">⚡ Same-Day Harvest Dispatch</text>
+        <text x="470" y="22" font-family="sans-serif" font-size="10" font-weight="600" fill="#2E3C29">★ 4.9/5 from 3,200+ Customers</text>
+      </g>
+    </g>
+  </g>
+</svg>

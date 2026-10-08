@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620">
+  <defs>
+    <filter id="shadowMain" x="-6%" y="-6%" width="112%" height="114%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#111827" flood-opacity="0.10"/>
+    </filter>
+    <filter id="shadowFloat" x="-10%" y="-10%" width="120%" height="124%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#111827" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="softPaper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="100%" stop-color="#F2EFE9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base Container with Subtle Editorial Border -->
+  <rect x="10" y="10" width="980" height="600" rx="16" fill="url(#softPaper)" stroke="#E3DFD5" stroke-width="1.5"/>
+
+  <!-- Subtle Studio Grid -->
+  <g stroke="#E8E4DA" stroke-width="1" opacity="0.8">
+    <line x1="50" y1="10" x2="50" y2="610"/>
+    <line x1="950" y1="10" x2="950" y2="610"/>
+    <line x1="10" y1="50" x2="990" y2="50"/>
+    <line x1="10" y1="570" x2="990" y2="570"/>
+    <line x1="500" y1="10" x2="500" y2="610" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Studio Tag in Corner -->
+  <text x="50" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#78736B" letter-spacing="1">AVENIQ STUDIO • PRODUCTION SYSTEM</text>
+  <text x="950" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#78736B" text-anchor="end">DESIGN + TECH + BUSINESS</text>
+
+  <!-- Primary Centered Browser Frame (Graminum & Ricky Combined Showcase) -->
+  <g filter="url(#shadowMain)">
+    <rect x="80" y="70" width="700" height="460" rx="10" fill="#FFFFFF" stroke="#D8D2C4" stroke-width="1.5"/>
+
+    <!-- Browser Header -->
+    <rect x="80" y="70" width="700" height="36" rx="10" fill="#F8F6F2"/>
+    <line x1="80" y1="106" x2="780" y2="106" stroke="#EAE4D8" stroke-width="1"/>
+    
+    <circle cx="102" cy="88" r="4" fill="#E26D5C"/>
+    <circle cx="114" cy="88" r="4" fill="#EBB44F"/>
+    <circle cx="126" cy="88" r="4" fill="#66B386"/>
+
+    <rect x="200" y="78" width="460" height="20" rx="4" fill="#FFFFFF" stroke="#E2DBD0" stroke-width="1"/>
+    <text x="430" y="92" font-family="sans-serif" font-size="10" fill="#78736B" text-anchor="middle">aveniq.tech/client-architecture</text>
+
+    <!-- Browser Content -->
+    <g transform="translate(80, 106)">
+      <!-- Top Sub-Bar -->
+      <rect width="700" height="40" fill="#FFFFFF"/>
+      <text x="24" y="25" font-family="'Georgia', serif" font-size="13" font-weight="700" fill="#111111" letter-spacing="1">AVENIQ / SELECTED WORKS</text>
+      <text x="676" y="25" font-family="sans-serif" font-size="10" font-weight="600" fill="#111111" text-anchor="end">EST. 2026</text>
+      <line x1="0" y1="40" x2="700" y2="40" stroke="#F0EBE1" stroke-width="1"/>
+
+      <!-- Inner Showcase Layout -->
+      <g transform="translate(24, 20)">
+        <!-- Left Product Showcase Block -->
+        <rect width="380" height="260" rx="8" fill="#F7F5F0" stroke="#E5E0D5"/>
+        <text x="20" y="32" font-family="sans-serif" font-size="9" font-weight="700" fill="#757067" letter-spacing="0.8">01 • DIGITAL COMMERCE</text>
+        <text x="20" y="62" font-family="'Georgia', serif" font-size="20" font-weight="600" fill="#141E15">Ricky Pickles Storefront</text>
+        <text x="20" y="82" font-family="sans-serif" font-size="10.5" fill="#6B665E">Bespoke subscription & rapid ordering workflow.</text>
+
+        <!-- Mini Mockup Inside -->
+        <g transform="translate(20, 102)">
+          <rect width="340" height="136" rx="6" fill="#FFFFFF" stroke="#E5E0D5"/>
+          <rect x="16" y="16" width="90" height="104" rx="4" fill="#EAE4D7"/>
+          <!-- Pickle jar graphic -->
+          <circle cx="61" cy="62" r="24" fill="#C5D4B2" opacity="0.7"/>
+          <rect x="50" y="46" width="22" height="32" rx="3" fill="#294421"/>
+          
+          <text x="120" y="34" font-family="sans-serif" font-size="11" font-weight="700" fill="#111111">Batch #42 Reserve</text>
+          <text x="120" y="48" font-family="sans-serif" font-size="9.5" fill="#78736B">Artisanal Habanero Dill</text>
+          <text x="120" y="70" font-family="sans-serif" font-size="13" font-weight="700" fill="#1E331B">$16.00</text>
+
+          <rect x="120" y="88" width="100" height="24" rx="4" fill="#182617"/>
+          <text x="170" y="104" font-family="sans-serif" font-size="9.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Order Now</text>
+        </g>
+
+        <!-- Right Side Architecture Overview -->
+        <g transform="translate(404, 0)">
+          <rect width="248" height="260" rx="8" fill="#FAFAF8" stroke="#EAE5DC"/>
+          <text x="16" y="28" font-family="sans-serif" font-size="9" font-weight="700" fill="#757067" letter-spacing="0.8">SYSTEM METRICS</text>
+
+          <!-- Metric Item 1 -->
+          <g transform="translate(16, 42)">
+            <rect width="216" height="42" rx="4" fill="#FFFFFF" stroke="#EDE8DF"/>
+            <text x="12" y="18" font-family="sans-serif" font-size="8.5" font-weight="600" fill="#78736B">PERFORMANCE SCORE</text>
+            <text x="12" y="33" font-family="sans-serif" font-size="13" font-weight="800" fill="#111111">99 / 100</text>
+            <text x="190" y="26" font-family="sans-serif" font-size="10" font-weight="700" fill="#16A34A">Lighthouse</text>
+          </g>
+
+          <!-- Metric Item 2 -->
+          <g transform="translate(16, 92)">
+            <rect width="216" height="42" rx="4" fill="#FFFFFF" stroke="#EDE8DF"/>
+            <text x="12" y="18" font-family="sans-serif" font-size="8.5" font-weight="600" fill="#78736B">FIRST CONTENTFUL PAINT</text>
+            <text x="12" y="33" font-family="sans-serif" font-size="13" font-weight="800" fill="#111111">0.42s</text>
+            <text x="190" y="26" font-family="sans-serif" font-size="10" font-weight="700" fill="#16A34A">Instant</text>
+          </g>
+
+          <!-- Metric Item 3 -->
+          <g transform="translate(16, 142)">
+            <rect width="216" height="42" rx="4" fill="#FFFFFF" stroke="#EDE8DF"/>
+            <text x="12" y="18" font-family="sans-serif" font-size="8.5" font-weight="600" fill="#78736B">CHECKOUT CONVERSION</text>
+            <text x="12" y="33" font-family="sans-serif" font-size="13" font-weight="800" fill="#111111">+34.8%</text>
+            <text x="190" y="26" font-family="sans-serif" font-size="10" font-weight="700" fill="#1E3A5F">Verified</text>
+          </g>
+
+          <!-- Metric Item 4: Delivery -->
+          <g transform="translate(16, 192)">
+            <rect width="216" height="52" rx="4" fill="#F3EFE7" stroke="#E3DDD1"/>
+            <text x="12" y="20" font-family="sans-serif" font-size="9" font-weight="700" fill="#111111">Direct Studio Access</text>
+            <text x="12" y="36" font-family="sans-serif" font-size="8.5" fill="#6B665E">No middle managers. Pure craft.</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Floating Companion Badge Card: Smart Expense Dashboard Mini-Card -->
+  <g filter="url(#shadowFloat)" transform="translate(680, 240)">
+    <rect width="260" height="280" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+    
+    <rect width="260" height="34" rx="10" fill="#0F172A"/>
+    <text x="16" y="22" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">SmartExpense Dashboard</text>
+    <circle cx="236" cy="17" r="4" fill="#10B981"/>
+
+    <g transform="translate(16, 48)">
+      <text x="0" y="10" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#64748B">REAL-TIME CASH FLOW</text>
+      <text x="0" y="30" font-family="sans-serif" font-size="16" font-weight="800" fill="#0F172A">$48,250.00</text>
+      
+      <!-- Mini Sparkline Graph -->
+      <path d="M 0 75 Q 40 45 80 60 T 160 30 T 228 15" fill="none" stroke="#0F172A" stroke-width="2.5"/>
+      <circle cx="228" cy="15" r="4" fill="#0F172A"/>
+
+      <g transform="translate(0, 95)">
+        <rect width="228" height="30" rx="4" fill="#F8FAFC" stroke="#E2E8F0"/>
+        <text x="8" y="19" font-family="sans-serif" font-size="9" font-weight="600" fill="#0F172A">Cloud Architecture</text>
+        <text x="220" y="19" font-family="sans-serif" font-size="9" font-weight="700" fill="#0F172A" text-anchor="end">-$324.50</text>
+      </g>
+
+      <g transform="translate(0, 132)">
+        <rect width="228" height="30" rx="4" fill="#F8FAFC" stroke="#E2E8F0"/>
+        <text x="8" y="19" font-family="sans-serif" font-size="9" font-weight="600" fill="#0F172A">Client Retainer</text>
+        <text x="220" y="19" font-family="sans-serif" font-size="9" font-weight="700" fill="#16A34A" text-anchor="end">+$6,400.00</text>
+      </g>
+
+      <g transform="translate(0, 172)">
+        <rect width="228" height="26" rx="4" fill="#0F172A"/>
+        <text x="114" y="17" font-family="sans-serif" font-size="9" font-weight="600" fill="#FFFFFF" text-anchor="middle">View Full Case Study →</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Floating Stamp Tag (Bottom Left) -->
+  <g transform="translate(60, 480)">
+    <rect width="180" height="50" rx="6" fill="#182617" filter="url(#shadowFloat)"/>
+    <text x="16" y="22" font-family="sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF">AVENIQ CRAFT GUARANTEE</text>
+    <text x="16" y="38" font-family="sans-serif" font-size="8.5" fill="#A7C1A3">Handcrafted code. Zero bloat.</text>
+  </g>
+</svg>

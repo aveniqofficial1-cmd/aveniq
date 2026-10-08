@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <defs>
+    <linearGradient id="bgRicky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3EF"/>
+      <stop offset="100%" stop-color="#ECE7DE"/>
+    </linearGradient>
+    <filter id="shadowPickles" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1B2818" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="520" fill="url(#bgRicky)"/>
+
+  <!-- Subtle Editorial Grid -->
+  <g stroke="#E3DDD1" stroke-width="1" opacity="0.6">
+    <line x1="40" y1="0" x2="40" y2="520"/>
+    <line x1="760" y1="0" x2="760" y2="520"/>
+    <line x1="0" y1="40" x2="800" y2="40"/>
+    <line x1="0" y1="480" x2="800" y2="480"/>
+  </g>
+
+  <!-- Browser Frame -->
+  <g filter="url(#shadowPickles)">
+    <rect x="44" y="36" width="712" height="448" rx="12" fill="#FFFFFF" stroke="#DCD5C9" stroke-width="1.5"/>
+
+    <!-- Browser Header Bar -->
+    <rect x="44" y="36" width="712" height="38" rx="12" fill="#F8F6F2"/>
+    <line x1="44" y1="74" x2="756" y2="74" stroke="#E6E0D6" stroke-width="1"/>
+    
+    <!-- Window Controls -->
+    <circle cx="68" cy="55" r="4.5" fill="#E26D5C"/>
+    <circle cx="82" cy="55" r="4.5" fill="#EBB44F"/>
+    <circle cx="96" cy="55" r="4.5" fill="#66B386"/>
+
+    <!-- URL Pill -->
+    <rect x="180" y="45" width="440" height="20" rx="6" fill="#FFFFFF" stroke="#E2DCD2" stroke-width="1"/>
+    <text x="400" y="59" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#6E6A63" text-anchor="middle" font-weight="500">rickypickles.com/shop/artisanal-collection</text>
+
+    <!-- App / Store Navbar -->
+    <g transform="translate(44, 74)">
+      <rect width="712" height="46" fill="#FFFFFF"/>
+      <line x1="0" y1="46" x2="712" y2="46" stroke="#EDE8DF" stroke-width="1"/>
+      
+      <!-- Store Brand -->
+      <text x="28" y="29" font-family="'Georgia', serif" font-size="16" font-weight="700" fill="#1C2E1B" letter-spacing="0.5">RICKY PICKLES</text>
+      
+      <!-- Nav Links -->
+      <text x="210" y="28" font-family="sans-serif" font-size="11" fill="#111111" font-weight="500">Artisanal Jars</text>
+      <text x="295" y="28" font-family="sans-serif" font-size="11" fill="#75716B">Brine Recipes</text>
+      <text x="385" y="28" font-family="sans-serif" font-size="11" fill="#75716B">Our Farm</text>
+      <text x="460" y="28" font-family="sans-serif" font-size="11" fill="#75716B">Subscriptions</text>
+      
+      <!-- Cart Icon & Pill -->
+      <rect x="618" y="10" width="70" height="26" rx="6" fill="#243E22"/>
+      <text x="653" y="27" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Cart (3)</text>
+    </g>
+
+    <!-- Main Store Hero & Products -->
+    <g transform="translate(44, 120)">
+      <!-- Left Column: Hero Editorial Banner -->
+      <rect x="24" y="20" width="300" height="190" rx="8" fill="#F4EFE6" stroke="#E3DDD1"/>
+      <rect x="38" y="34" width="76" height="18" rx="4" fill="#243E22"/>
+      <text x="76" y="46" font-family="sans-serif" font-size="9" font-weight="600" fill="#FFFFFF" text-anchor="middle">BATCH #42 LIVE</text>
+
+      <text x="38" y="80" font-family="'Georgia', serif" font-size="20" font-weight="700" fill="#182617" line-height="1.2">
+        Small-batch,
+      </text>
+      <text x="38" y="102" font-family="'Georgia', serif" font-size="20" font-weight="700" fill="#182617">
+        naturally fermented.
+      </text>
+      <text x="38" y="126" font-family="sans-serif" font-size="10.5" fill="#666157" line-height="1.4">
+        Organic dill, habanero garlic, and heirloom spears.
+      </text>
+
+      <rect x="38" y="148" width="124" height="32" rx="6" fill="#182617"/>
+      <text x="100" y="168" font-family="sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Order Now — $14</text>
+
+      <!-- Right Column: Product Grid -->
+      <!-- Product Card 1 -->
+      <g transform="translate(340, 20)">
+        <rect width="160" height="190" rx="8" fill="#FAFAF8" stroke="#E6E0D6"/>
+        <rect x="12" y="12" width="136" height="96" rx="6" fill="#EAE3D5"/>
+        <!-- Pickle Jar Visual Graphic -->
+        <circle cx="80" cy="56" r="30" fill="#C9D6B8" opacity="0.6"/>
+        <rect x="66" y="38" width="28" height="40" rx="4" fill="#2F4C27"/>
+        <rect x="62" y="34" width="36" height="7" rx="2" fill="#D8BE7A"/>
+        <text x="80" y="60" font-family="sans-serif" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">DILL</text>
+        
+        <text x="14" y="124" font-family="sans-serif" font-size="11" font-weight="700" fill="#111111">Classic Garlic Spear</text>
+        <text x="14" y="138" font-family="sans-serif" font-size="9.5" fill="#78736B">16 oz Jar • Cold-packed</text>
+        <text x="14" y="160" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#182617">$14.00</text>
+        <rect x="106" y="145" width="42" height="24" rx="4" fill="#182617"/>
+        <text x="127" y="161" font-family="sans-serif" font-size="9.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ Add</text>
+      </g>
+
+      <!-- Product Card 2 -->
+      <g transform="translate(516, 20)">
+        <rect width="168" height="190" rx="8" fill="#FAFAF8" stroke="#E6E0D6"/>
+        <rect x="12" y="12" width="144" height="96" rx="6" fill="#EBE4D3"/>
+        <!-- Pickle Jar Visual Graphic 2 -->
+        <circle cx="84" cy="56" r="30" fill="#E8C89E" opacity="0.6"/>
+        <rect x="70" y="38" width="28" height="40" rx="4" fill="#693B1F"/>
+        <rect x="66" y="34" width="36" height="7" rx="2" fill="#D8BE7A"/>
+        <text x="84" y="60" font-family="sans-serif" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">SPICY</text>
+
+        <text x="14" y="124" font-family="sans-serif" font-size="11" font-weight="700" fill="#111111">Smoked Habanero</text>
+        <text x="14" y="138" font-family="sans-serif" font-size="9.5" fill="#78736B">16 oz Jar • Extra Crisp</text>
+        <text x="14" y="160" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#182617">$16.00</text>
+        <rect x="114" y="145" width="42" height="24" rx="4" fill="#182617"/>
+        <text x="135" y="161" font-family="sans-serif" font-size="9.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ Add</text>
+      </g>
+
+      <!-- Bottom Trust Metrics Bar -->
+      <g transform="translate(24, 226)">
+        <rect width="660" height="42" rx="6" fill="#F8F6F2" stroke="#EAE4DA"/>
+        <text x="40" y="25" font-family="sans-serif" font-size="10" font-weight="600" fill="#111111">✓ 100% Organic Produce</text>
+        <text x="240" y="25" font-family="sans-serif" font-size="10" font-weight="600" fill="#111111">⚡ Same-Day Dispatch</text>
+        <text x="440" y="25" font-family="sans-serif" font-size="10" font-weight="600" fill="#111111">★ 4.9/5 Rating (1,400+ reviews)</text>
+      </g>
+    </g>
+  </g>
+</svg>

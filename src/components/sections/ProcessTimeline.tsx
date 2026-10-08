@@ -1,98 +1,113 @@
 import React from 'react';
-import { Compass, FileText, Code2, Rocket } from 'lucide-react';
-
-const STEPS = [
-  {
-    step: '01',
-    title: 'Discover',
-    description: 'Understand your business, goals and requirements.',
-    detail: 'We analyze your commercial objectives, target audience, and functional specifications to establish a clear roadmap.',
-    icon: Compass,
-  },
-  {
-    step: '02',
-    title: 'Plan',
-    description: 'Define the structure, technology and user experience.',
-    detail: 'Wireframing, information architecture, technology stack selection, and milestone scheduling.',
-    icon: FileText,
-  },
-  {
-    step: '03',
-    title: 'Build',
-    description: 'Design and develop the solution.',
-    detail: 'Writing clean, type-safe code, crafting responsive layouts, implementing APIs, and conducting rigorous code reviews.',
-    icon: Code2,
-  },
-  {
-    step: '04',
-    title: 'Launch',
-    description: 'Test, deploy and support the final product.',
-    detail: 'Comprehensive cross-browser testing, SEO optimization, DNS mapping, global edge deployment, and ongoing support.',
-    icon: Rocket,
-  },
-];
 
 export default function ProcessTimeline() {
+  const steps = [
+    {
+      step: '01',
+      title: 'Discover',
+      tagline: 'Strategy & Requirements',
+      description: 'Understand the business, audience, goals and requirements.',
+      details: [
+        'Stakeholder alignment & target audience discovery',
+        'Competitive landscape & positioning analysis',
+        'Technical scope definition & project timeline',
+      ],
+    },
+    {
+      step: '02',
+      title: 'Design',
+      tagline: 'UI/UX & Art Direction',
+      description: 'Define the structure, experience and visual direction.',
+      details: [
+        'Information architecture & wireframe flows',
+        'Editorial typographic and visual design system',
+        'Interactive prototype reviews with your team',
+      ],
+    },
+    {
+      step: '03',
+      title: 'Build',
+      tagline: 'Engineering & Integration',
+      description: 'Develop the product using modern, reliable technology.',
+      details: [
+        'Clean Next.js, React & TypeScript codebase',
+        'Sub-second performance & SEO metadata tuning',
+        'Database schemas, APIs & webhook integrations',
+      ],
+    },
+    {
+      step: '04',
+      title: 'Launch',
+      tagline: 'Deployment & Support',
+      description: 'Deploy, test, refine and help the product go live.',
+      details: [
+        'Cross-device responsive & accessibility QA',
+        'DNS, SSL & edge CDN infrastructure configuration',
+        'Post-launch monitoring & documentation handoff',
+      ],
+    },
+  ];
+
   return (
-    <section id="process" className="py-20 sm:py-28 bg-slate-50 border-b border-slate-200">
+    <section id="approach" className="py-24 md:py-32 bg-[#FAF9F6] border-y border-[#D9D8D3] scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="text-xs font-semibold uppercase tracking-wider text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
-            How We Work
+        <div className="max-w-3xl space-y-4 mb-16 pb-8 border-b border-[#D9D8D3]">
+          <span className="text-xs font-mono font-semibold uppercase tracking-widest text-[#777777]">
+            Approach
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-950">
-            Our 4-Step Process
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#111111]">
+            From idea to launch.
           </h2>
-          <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-            A transparent and structured development process ensuring timely delivery, high quality, and clear communication.
+          <p className="text-base sm:text-lg text-[#555555] font-normal leading-relaxed">
+            A structured, transparent workflow engineered to ensure high quality and zero surprises.
           </p>
         </div>
 
-        {/* Timeline Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mt-16">
-          {STEPS.map((step) => {
-            const Icon = step.icon;
-            return (
-              <div
-                key={step.step}
-                className="p-8 rounded-xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-200 hover:shadow-xs flex flex-col justify-between"
-              >
-                <div>
-                  {/* Step Number & Icon */}
-                  <div className="flex items-center justify-between mb-6">
-                    <div className="w-12 h-12 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-800">
-                      <Icon className="w-6 h-6" />
-                    </div>
-                    <span className="font-mono text-xl font-bold text-slate-400">
-                      {step.step}
-                    </span>
-                  </div>
-
-                  {/* Step Title */}
-                  <h3 className="text-xl font-bold text-slate-950 tracking-tight">
-                    {step.title}
-                  </h3>
-
-                  {/* Main Description */}
-                  <p className="text-sm font-semibold text-slate-800 mt-2 leading-relaxed">
-                    {step.description}
-                  </p>
-
-                  {/* Detailed Explanation */}
-                  <p className="text-xs text-slate-600 mt-3 leading-relaxed border-t border-slate-100 pt-3">
-                    {step.detail}
-                  </p>
+        {/* 4-Step Timeline Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {steps.map((item, idx) => (
+            <div
+              key={item.step}
+              className="p-8 rounded-xl bg-[#FFFFFF] border border-[#D9D8D3] hover:border-[#111111] transition-all flex flex-col justify-between space-y-6 relative group shadow-sm"
+            >
+              {/* Step indicator top line */}
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <span className="text-2xl font-serif-display font-medium text-[#111111] group-hover:text-[#18283B] transition-colors">
+                    {item.step}
+                  </span>
+                  <span className="text-[10px] font-mono uppercase tracking-widest text-[#888888]">
+                    Phase {idx + 1}
+                  </span>
                 </div>
 
-                <div className="mt-6 pt-3 border-t border-slate-100 flex items-center gap-2 text-xs font-mono text-slate-500">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                  <span>Phase {step.step} Milestone</span>
+                <div className="border-t border-[#EFEFEA] pt-4">
+                  <h3 className="text-lg font-bold text-[#111111] mb-1">
+                    {item.title}
+                  </h3>
+                  <span className="text-xs font-mono text-[#777777] block mb-3">
+                    {item.tagline}
+                  </span>
+                  <p className="text-xs text-[#555555] leading-relaxed font-medium">
+                    {item.description}
+                  </p>
                 </div>
               </div>
-            );
-          })}
+
+              {/* Sub-bullets */}
+              <div className="pt-4 border-t border-[#EFEFEA] space-y-2">
+                {item.details.map((bullet, bIdx) => (
+                  <div key={bIdx} className="text-[11px] text-[#666666] flex items-start gap-1.5 leading-tight">
+                    <span className="text-[#111111] font-bold">•</span>
+                    <span>{bullet}</span>
+                  </div>
+                ))}
+              </div>
+
+            </div>
+          ))}
         </div>
 
       </div>

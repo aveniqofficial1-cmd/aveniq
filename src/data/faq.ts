@@ -2,53 +2,43 @@ import { FAQItem } from '@/types';
 
 export const faqData: FAQItem[] = [
   {
-    question: 'What type of websites do you build?',
-    answer: 'AVENIQ builds high-performance static websites, database-powered dynamic websites, comprehensive e-commerce platforms, custom web applications, SaaS dashboards, and AI-integrated digital experiences. Every solution is custom-tailored to the specific operational and commercial goals of your business.',
-    category: 'General',
+    question: 'What kind of projects does AVENIQ work on?',
+    answer: 'We specialize in custom websites, web applications, e-commerce storefronts, mobile apps, and practical AI automation for ambitious businesses, boutique brands, and founders. Whether you need a high-end marketing website to represent your company or a custom software dashboard to run operations, we build it from the ground up.',
+    category: 'Overview'
   },
   {
-    question: 'What is the difference between a static and dynamic website?',
-    answer: 'A static website delivers pre-rendered content directly to visitors, offering unmatched loading speed, rock-solid security, minimal maintenance, and lower operational costs—making it ideal for portfolios, landing pages, and service businesses. A dynamic website interacts with a real-time database to handle user logins, live content updates, customer portals, checkout workflows, and administrative dashboards.',
-    category: 'Architecture',
+    question: 'How does the project process work?',
+    answer: 'Our process follows four clear stages: Discover, Design, Build, and Launch. We start by understanding your business goals and audience, create thoughtful interactive designs for your approval, engineer the product using modern and scalable technologies, and thoroughly test before deploying. You communicate directly with the builders throughout.',
+    category: 'Process'
   },
   {
-    question: 'Can you build an e-commerce website?',
-    answer: 'Yes. We engineer complete, scalable e-commerce storefronts equipped with product catalog management, intuitive search and filter controls, cart workflows, secure encrypted checkout gateways, inventory synchronization, and custom admin management panels.',
-    category: 'Services',
-  },
-  {
-    question: 'Can you create custom web applications?',
-    answer: 'Absolutely. We develop bespoke web applications from the ground up using modern technologies like Next.js, React, TypeScript, and modern database backends. Whether you need internal business management tools, customer portals, or a full SaaS product, we design the architecture around your exact workflow.',
-    category: 'Web Apps',
-  },
-  {
-    question: 'Do you provide domain and hosting assistance?',
-    answer: 'Yes. We guide you through selecting the best domain registrar and configure DNS, SSL certificates, CDN distribution, and high-reliability hosting infrastructure (such as Vercel, AWS, Cloudflare, or Supabase) so your website launches smoothly and remains always online.',
-    category: 'Infrastructure',
+    question: 'How long does a website usually take?',
+    answer: 'A standard custom website or high-impact marketing site typically takes 2 to 3 weeks from kickoff to launch. More comprehensive projects, such as full-featured e-commerce stores or custom web applications with complex databases and user accounts, usually take 4 to 8 weeks depending on the exact scope and revisions.',
+    category: 'Timeline'
   },
   {
     question: 'Can you redesign an existing website?',
-    answer: 'Yes. If your current website looks dated, loads slowly, or fails to convert visitors into inquiries, we can completely overhaul its UI/UX, modernize the underlying codebase, improve responsiveness across modern devices, and enhance its search engine visibility.',
-    category: 'Services',
+    answer: 'Yes. If your existing website looks dated, performs slowly on mobile devices, or fails to generate business inquiries, we can completely redesign and re-engineer it. We preserve your existing brand equity and SEO rankings while modernizing the design, user experience, and underlying tech stack.',
+    category: 'Services'
   },
   {
-    question: 'Can you integrate AI features?',
-    answer: 'Yes. We integrate smart AI capabilities into websites and applications, such as contextual conversational assistants, automated lead qualification, smart semantic search, automated content generation, and custom data processing powered by leading AI APIs.',
-    category: 'AI & Innovation',
+    question: 'Do you work with small businesses?',
+    answer: 'Absolutely. We love partnering with small businesses, boutique consultancies, and independent founders who value craftsmanship and want to stand out from competitors. Because we are a focused studio, we give every project personal attention and direct partner communication.',
+    category: 'Clients'
   },
   {
-    question: 'How long does a website take to build?',
-    answer: 'Project timelines depend directly on scope and complexity. A clean, high-impact static website or landing page typically takes 1 to 2 weeks. Comprehensive dynamic websites and e-commerce platforms usually range between 2 to 4 weeks, while complex custom web applications are delivered in structured milestones. We establish a transparent timeline before starting.',
-    category: 'Process',
+    question: 'Do you provide hosting and deployment?',
+    answer: 'Yes. We handle end-to-end deployment setup, including DNS configuration, SSL security certificates, global edge CDN distribution, and database provisioning (using trusted enterprise infrastructure like Vercel, Supabase, and AWS). We also provide clear documentation and post-launch maintenance options.',
+    category: 'Infrastructure'
   },
   {
-    question: 'Do you provide post-launch support?',
-    answer: 'Yes. We believe in building lasting client relationships. After launch, we provide dedicated support to assist with technical adjustments, performance monitoring, software updates, and scaling your digital presence as your business expands.',
-    category: 'Support',
+    question: 'Can you build custom web applications?',
+    answer: 'Yes. We build full-stack web applications tailored to your specific workflow—including customer portals, multi-tenant SaaS dashboards, calculation tools, booking systems, and internal operational software with secure authentication and database integrations.',
+    category: 'Capabilities'
   },
   {
-    question: 'How do I start a project with AVENIQ?',
-    answer: 'Starting is simple: submit your project requirements through our online quote form below, reach out directly via WhatsApp at +91 7670863913, or message us on Instagram @aveniq.tech. We will review your vision, discuss scope and recommendations, and provide a transparent, customized quote.',
-    category: 'Getting Started',
-  },
+    question: 'How do we start a project?',
+    answer: 'Getting started is straightforward: fill out our project inquiry form below or reach out directly on WhatsApp (+91 7670863913) or email (contact@aveniq.tech). We will review your requirements, arrange a short introductory call if helpful, and provide a clear proposal with timeline and fixed pricing.',
+    category: 'Next Steps'
+  }
 ];

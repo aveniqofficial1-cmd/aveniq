@@ -1,67 +1,51 @@
 import React from 'react';
 import Hero from '@/components/sections/Hero';
 import TrustStrip from '@/components/sections/TrustStrip';
-import Services from '@/components/sections/Services';
-import StaticVsDynamic from '@/components/sections/StaticVsDynamic';
-import Features from '@/components/sections/Features';
-import FeaturedWorkCarousel from '@/components/sections/FeaturedWorkCarousel';
 import Portfolio from '@/components/sections/Portfolio';
+import Services from '@/components/sections/Services';
 import WhyAveniq from '@/components/sections/WhyAveniq';
 import ProcessTimeline from '@/components/sections/ProcessTimeline';
 import AboutSection from '@/components/sections/AboutSection';
 import TechStack from '@/components/sections/TechStack';
-import ProjectInquiryForm from '@/components/sections/ProjectInquiryForm';
 import FAQSection from '@/components/sections/FAQSection';
-import ContactSection from '@/components/sections/ContactSection';
 import FinalCTA from '@/components/sections/FinalCTA';
+import ContactSection from '@/components/sections/ContactSection';
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col w-full overflow-hidden">
-      {/* 1. Hero Section with Mockup and CTAs */}
+    <div className="flex flex-col w-full overflow-hidden bg-[#F7F6F2]">
+      {/* 1. Hero Section with Editorial Composition & CTAs */}
       <Hero />
 
-      {/* 2. Trust & Introduction */}
+      {/* 2. Trust Statement & Philosophy */}
       <TrustStrip />
 
-      {/* 3. Services (What We Build) */}
-      <Services />
-
-      {/* 4. Static vs Dynamic Comparison Matrix */}
-      <StaticVsDynamic />
-
-      {/* 5. Standard Capabilities & Features */}
-      <Features />
-
-      {/* 6. Featured Work Spotlight */}
-      <FeaturedWorkCarousel />
-
-      {/* 7. Selected Work Portfolio (Filterable & Modular) */}
+      {/* 3. Selected Work (Ricky Pickles, Graminum, Smart Expense, Bakery) */}
       <Portfolio />
 
-      {/* 8. Why businesses choose AVENIQ (4 core pillars) */}
+      {/* 4. Services (What we do - 6 numbered editorial rows) */}
+      <Services />
+
+      {/* 5. Why AVENIQ (4 core principles) */}
       <WhyAveniq />
 
-      {/* 9. 4-Step Process Timeline (Discover, Plan, Build, Launch) */}
+      {/* 6. 4-Step Process Timeline (Discover, Design, Build, Launch) */}
       <ProcessTimeline />
 
-      {/* 10. About AVENIQ (Technology with purpose) */}
+      {/* 7. About AVENIQ (Human & honest boutique studio positioning) */}
       <AboutSection />
 
-      {/* 11. Modern Technology Stack */}
+      {/* 8. Modern Technology Stack (Compact typographic section) */}
       <TechStack />
 
-      {/* 12. Project Inquiry Form */}
-      <ProjectInquiryForm />
-
-      {/* 13. FAQ Accordion */}
+      {/* 9. FAQ Accordion (8 questions) */}
       <FAQSection />
 
-      {/* 14. Contact Channels (WhatsApp & Instagram) */}
-      <ContactSection />
-
-      {/* 15. Full-Width Final Conversion CTA */}
+      {/* 10. Large Editorial Final CTA */}
       <FinalCTA />
+
+      {/* 11. Professional Contact & Project Enquiry Form */}
+      <ContactSection />
     </div>
   );
 }
